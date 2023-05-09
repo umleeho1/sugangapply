@@ -79,7 +79,6 @@ section.main-section {
     width: 82%;
     height: 700px;
     float: right;
-    overflow-y: scroll;
 }
 
 aside.main-aside {
