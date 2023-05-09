@@ -6,12 +6,12 @@ div.URL-input {
 
 
 #chatbox {
-    height: 80px;
+    height: 160px;
     padding: 10px;
     overflow-y: scroll;
     margin-top: 10px;
     margin-bottom: 5px;
-    background: aqua;
+    background: rgb(173, 255, 255);
 }
   
 #message {
@@ -122,11 +122,10 @@ div.sidebar-chatbox{
 
 div.sidebar-adbox{
     border: 2px solid rgb(228,228,228);
-    border-radius: 10px;
     padding: 6px;
     margin: 10px 0px;  
     height: 100px;
-    background-color: #4CAF50;
+    background-color: #9f9f9f;
     text-align:center;
     vertical-align:middle;
 }
@@ -142,14 +141,12 @@ section.result-table {
 div.advertisements {
     bottom: 0;
     height: 100px;
-    background-color: #4CAF50;
+    background-color: #6a6a6a;
 }
 
 .main-rankingbox {
     margin-left: 10px;
     margin-right:10px;
-    border:2px solid black; 
-    border-radius: 10px;
     float:left; 
     width: 65%; 
     height:180px;
@@ -158,8 +155,6 @@ div.advertisements {
 .main-ratebox {
     margin-left: 10px;
     margin-right:10px;
-    border:2px solid black; 
-    border-radius: 10px;
     float:left; 
     width: 30%; 
     height:180px;
@@ -168,4 +163,5 @@ div.advertisements {
 .table-responsive{
     width: 100%;
     overflow-x: auto;
+    overflow-y: auto;
 }

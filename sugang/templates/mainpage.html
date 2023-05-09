@@ -10,20 +10,21 @@
     </div>
 
     <section class="result-table">
-        <table class="table table-dark table-striped-columns">
-            <thead>
-              <tr>
-                <th class="text-center">속도측정 결과</th>
-              </tr>
-            </thead>
-            <tbody style="height:200px; vertical-align:middle;">
-              <tr><td class="text-center"> Uplink Speed = 몇/ms</td></tr>
-              <tr><td class="text-center"> Downlink Speed = 몇/ms</td></tr>
-              <tr><td class="text-center"> Ping Speed = 몇ms</td></tr>  
-            </tbody>
-          </table>
+      <div class="card text-center" style="margin-bottom:15px;">
+        <div class="card-header">
+          속도측정 결과
+        </div>
+        <div class="card-body" style="height:200px;">
+          <h5 class="card-title">(사이트) 접속 기준</h5>
+          <p class="card-text">Uplink Speed : 몇/ms</p>
+          <p class="card-text">Downlink Speed : 몇/ms</p>
+          <p class="card-text">Ping Speed : ms</p>
+          <p class="card-text">(그 외 지표)</p>
+        </div>
+      </div>
 
-          <table class="table table-secondary table-striped-colums">
+
+          <table class="table table-light table-striped-colums">
             <thead>
               <tr>
                 <th class="text-center">서버시간</th>
@@ -31,54 +32,38 @@
             </tead>
             <tbody>
               <tr>
-                <td class="text-center" style="height:100px; vertical-align:middle;">서버시간 측정결과 데이터</td>
+                <td class="text-center" style="height:100px; vertical-align:middle; font-size: 1.5em;">
+                  00시 00분 00초 00</td>
               </tr>
             </tbody>
           </table>
     </section>
 
-    <section>
+    <section style="vetical-align:middle;">
         <!-- 결과화면 두 곳을 float할 구역-->
         <div class="main-rankingbox">
-          <table class="table-primary table-responsive">
-            <thead>
-              <tr>
-                <th scope="col-2">순위</th>
-                <th scope="col-4">핑 속도</th>
-                <th scope="col-4">업링크 속도</th>
-                <th scope="col-4">다운링크 속도</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr class="text-left">
-                <th scope="row">1위<th>
-                  <td>N m/s</td>
-                  <td>N m/s</td>
-                  <td>N m/s</td>
-              </tr>
-              <tr class="text-left">
-                <th scope="row">2위<th>
-                  <td>N m/s</td>
-                  <td>N m/s</td>
-                  <td>N m/s</td>
-              </tr>
-              <tr class="text-left">
-                <th scope="row">3위<th>
-                  <td>N m/s</td>
-                  <td>N m/s</td>
-                  <td>N m/s</td>
-              </tr>
-              <tr class="text-left">
-                <th scope="row">본인<th>
-                  <td>N m/s</td>
-                  <td>N m/s</td>
-                  <td>N m/s</td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="card text-center">
+            <div class="card-header">
+              인터넷 속도 랭킹
+            </div>
+            <div class="card-body" style="height:140px;">
+              <h5 class="card-title">순위 / 핑 / 업링크 속도 / 다운링크 속도</h5>
+              <p class="card-text"># / N ms / N bps / N bps</p>
+              <p class="card-text"># / N ms / N bps / N bps</p>
+            </div>
+          </div>
         </div>
 
         <div class="main-ratebox">
+          <div class="card text-center" style="vertical-align:middle;">
+            <div class="card-header">
+              수강신청 성공확률
+            </div>
+            <div class="card-body" style="height:140px;">
+              <h5 class="card-title">귀하의 수강신청 확률은..</h5>
+              <p class="card-text">(성공확률 표시. '높은확률'~'낮은확률')</p>
+            </div>
+          </div>
         </div>
     </section>
 
